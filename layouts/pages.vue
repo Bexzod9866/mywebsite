@@ -8,11 +8,11 @@
 </template>
 
 <script>
-import AppHeader from "@/components/header"
+import AppPageheader from "@/components/pageheader"
 import AppFooter from "@/components/footer"
 export default {
   components: {
-    AppHeader,
+    AppPageheader,
     AppFooter
   }
 }

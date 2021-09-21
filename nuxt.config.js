@@ -52,6 +52,10 @@ module.exports = {
     // See https://github.com/nuxt-community/axios-module#options
   },
 
+  css: [
+    "@/assets/css/style.scss"
+  ],
+
   /*
   ** Build configuration
   */

@@ -1,10 +1,22 @@
 <template>
-  <section class="container">
+  <div class="header">
 
-    <h1>header</h1>
+    <div class="navigation">
+      <div class="nav">
+        <div class="nav-item">
+          <nuxt-link to="/works">Works</nuxt-link>
+        </div>
+        <div class="nav-item">
+          <nuxt-link to="/blog">Blog</nuxt-link>
+        </div>
+        <div class="nav-item">
+          <nuxt-link to="/contact">Contact</nuxt-link>
+        </div>
+      </div>
+    </div>
 
   
-  </section>
+  </div>
 </template>
 
 <script>
